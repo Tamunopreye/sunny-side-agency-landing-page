@@ -14,10 +14,11 @@
     --White: hsl(0, 0%, 100%);
 }
 
-*, *::before, *::after {
+* {
     box-sizing: border-box;
     font-family: 'Barlow', sans-serif;
 }
+
 body {
     margin: 0;
     padding: 0;
@@ -31,13 +32,103 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   height: 60vh;
+  width: 100%;
   color: var(--White);
 }
-header .header-content {
-  text-align: center;
-  margin-top: 3rem;
+header nav {
+  padding: 2rem 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
 }
 
-article .content-box {
+header .header-content {
+  text-align: center;
+  margin-top: -2rem;
+}
+
+article .section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.section-img {
+  width: 100%;
+}
+
+.content-box {
+  margin: auto;
   padding: 4rem;
 }
+
+.content-box button {
+  padding: 0;
+  margin-top: 4rem;
+  font-weight: 600;
+  border: none;
+  border-bottom: 3px solid var(--Yellow);
+  background-color: var(--White);
+  font-size: 1rem;
+}
+.content-box button:hover {
+  border-bottom: 3px solid var(--Softred);
+}
+
+#apple {
+  background-image: url(assets/desktop/image-graphic-design.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+  align-items: flex-end;
+}
+
+#orange {
+  background-image: url(assets/desktop/image-photography.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 450px;
+}
+
+.testimonials-section {
+  text-align: center;
+  padding: 4rem 6rem;
+}
+
+.testimonials img {
+  width: 5rem;
+  border-radius: 100%;
+}
+
+.testimonials {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.img-section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.img-section img {
+  width: 100%;
+}
+
+footer {
+  background-color: var(--Darkmoderatecyanfooter);
+  padding: 4rem;
+  text-align: center;
+}
+footer ul {
+  list-style: none;
+}
+footer ul li {
+  display: inline-block;
+  margin-right: 2rem;
+} 
