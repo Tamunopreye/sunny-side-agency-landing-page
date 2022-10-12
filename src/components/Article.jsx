@@ -8,6 +8,7 @@ import milkBottles from "../assets/desktop/image-gallery-milkbottles.jpg";
 import orange from "../assets/desktop/image-gallery-orange.jpg";
 import cone from "../assets/desktop/image-gallery-cone.jpg";
 import sugarCubes from "../assets/desktop/image-gallery-sugarcubes.jpg";
+
 const Article = () => {
 	return (
 		<article>
@@ -20,7 +21,7 @@ const Article = () => {
 						compelling visuals that do most of the marketing for
 						you.
 					</p>
-					<button>Learn More</button>
+					<button className="first">Learn More</button>
 				</div>
 				<img src={eggPic} className="section-img" alt="" />
 			</section>
@@ -33,24 +34,29 @@ const Article = () => {
 						photographers, videographers, and copywriters, we'll
 						build and extend your brand in digital places.
 					</p>
-					<button>Learn More</button>
+					<button className="second">Learn More</button>
 				</div>
 			</section>
 			<section className="section">
 				<div id="apple">
-					<h2>Graphic Design</h2>
-					<p>
-						Great design makes you memorable. We deliver artwork
-						that underscores your brand message and capture
-						potiential client's attention.
-					</p>
+					<div className="apple-content">
+						<h2>Graphic Design</h2>
+						<p>
+							Great design makes you memorable. We deliver artwork
+							that underscores your brand message and capture
+							potiential client's attention.
+						</p>
+					</div>
 				</div>
 				<div id="orange">
-					<h2>Photography</h2>
-					<p>
-						Increase your credibility by getting the most stunning,
-						high-quality photos that improve your business image.
-					</p>
+					<div className="orange-content">
+						<h2>Photography</h2>
+						<p>
+							Increase your credibility by getting the most
+							stunning, high-quality photos that improve your
+							business image.
+						</p>
+					</div>
 				</div>
 			</section>
 			<section className="testimonials-section">
@@ -63,7 +69,7 @@ const Article = () => {
 							making sure our needs were met and deadlines were
 							always a hit.
 						</p>
-						<h5>Emily R.</h5>
+						<h4>Emily R.</h4>
 						<span>marketing director</span>
 					</div>
 					<div>
@@ -73,7 +79,7 @@ const Article = () => {
 							interest in our brand's success made it a satisfying
 							and enjoyable experience.
 						</p>
-						<h5>Thomas S.</h5>
+						<h4>Thomas S.</h4>
 						<span>chief operating officer</span>
 					</div>
 					<div>
@@ -82,7 +88,7 @@ const Article = () => {
 							Incredible end result! Our sales increased over 400%
 							when we worked with Sunnyside. Highly recommended!
 						</p>
-						<h5>Jennie F.</h5>
+						<h4>Jennie F.</h4>
 						<span>business owner</span>
 					</div>
 				</div>
