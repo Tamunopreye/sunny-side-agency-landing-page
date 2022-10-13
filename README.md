@@ -23,4 +23,4 @@ and practised it a bit hoping for improvement on my next project
 -   I also want to get better at responsive designs. Looking on this project i was able to achieve some extent of responsive design but i do wish to get better even though its using a css framework.
 
 -   Frontend Mentor - [@Tamunopreye](https://www.frontendmentor.io/profile/Tamunopreye)
--   Twitter - [@Tamunopreye](https://www.twitter.com/Tamunopreye)
+-   Twitter - [@yungrrich_t](https://www.twitter.com/yungrrich_t)
