@@ -1,4 +1,3 @@
-import logo from "../assets/imgs/logo.svg";
 import React from "react";
 import {
 	FaFacebookSquare,
