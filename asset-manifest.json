@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/sunny-side-agency-landing-page/static/css/main.3c29c74b.css",
+    "main.js": "/sunny-side-agency-landing-page/static/js/main.fd07b27d.js",
+    "static/js/787.75e5e083.chunk.js": "/sunny-side-agency-landing-page/static/js/787.75e5e083.chunk.js",
+    "static/media/image-header.jpg": "/sunny-side-agency-landing-page/static/media/image-header.49b52ffa54752cb7c2d0.jpg",
+    "static/media/image-gallery-milkbottles.jpg": "/sunny-side-agency-landing-page/static/media/image-gallery-milkbottles.df1d9d8460e873924250.jpg",
+    "static/media/image-gallery-sugarcubes.jpg": "/sunny-side-agency-landing-page/static/media/image-gallery-sugarcubes.09b72f4fbfbf08579f9d.jpg",
+    "static/media/image-gallery-orange.jpg": "/sunny-side-agency-landing-page/static/media/image-gallery-orange.49f4212bc650862672a7.jpg",
+    "static/media/image-gallery-cone.jpg": "/sunny-side-agency-landing-page/static/media/image-gallery-cone.461ff4214c3ac822dfff.jpg",
+    "static/media/image-graphic-design.jpg": "/sunny-side-agency-landing-page/static/media/image-graphic-design.7ac8bdf0d3df29591a3b.jpg",
+    "static/media/image-photography.jpg": "/sunny-side-agency-landing-page/static/media/image-photography.104cf40b52f66520afb0.jpg",
+    "static/media/logo.svg": "/sunny-side-agency-landing-page/static/media/logo.4271b8992622e4dd1cc7de08466dab06.svg",
+    "index.html": "/sunny-side-agency-landing-page/index.html",
+    "static/media/icon-arrow-down.svg": "/sunny-side-agency-landing-page/static/media/icon-arrow-down.979ef07a7cbb07d35f05bbaa093f7489.svg",
+    "main.3c29c74b.css.map": "/sunny-side-agency-landing-page/static/css/main.3c29c74b.css.map",
+    "main.fd07b27d.js.map": "/sunny-side-agency-landing-page/static/js/main.fd07b27d.js.map",
+    "787.75e5e083.chunk.js.map": "/sunny-side-agency-landing-page/static/js/787.75e5e083.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3c29c74b.css",
+    "static/js/main.fd07b27d.js"
+  ]
+}
