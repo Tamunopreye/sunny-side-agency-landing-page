@@ -11,7 +11,7 @@ import sugarCubes from "../assets/desktop/image-gallery-sugarcubes.jpg";
 
 const Article = () => {
 	return (
-		<article>
+		<article className="article">
 			<section className="section">
 				<div className="content-box">
 					<h2>Transform your brand</h2>
