@@ -11,7 +11,7 @@ const Header = () => {
 	return (
 		<header>
 			<nav>
-				<Link>
+				<Link to="/">
 					<img src={logo} className="logo" alt="" />
 				</Link>
 				<ul className={click ? "nav-menu active" : "nav-menu"}>

@@ -69,7 +69,7 @@ const Article = () => {
 							making sure our needs were met and deadlines were
 							always a hit.
 						</p>
-						<h4>Emily R.</h4>
+						<h5>Emily R.</h5>
 						<span>marketing director</span>
 					</div>
 					<div>
@@ -79,7 +79,7 @@ const Article = () => {
 							interest in our brand's success made it a satisfying
 							and enjoyable experience.
 						</p>
-						<h4>Thomas S.</h4>
+						<h5>Thomas S.</h5>
 						<span>chief operating officer</span>
 					</div>
 					<div>
@@ -88,7 +88,7 @@ const Article = () => {
 							Incredible end result! Our sales increased over 400%
 							when we worked with Sunnyside. Highly recommended!
 						</p>
-						<h4>Jennie F.</h4>
+						<h5>Jennie F.</h5>
 						<span>business owner</span>
 					</div>
 				</div>
